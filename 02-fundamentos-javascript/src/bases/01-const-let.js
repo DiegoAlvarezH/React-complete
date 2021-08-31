@@ -11,6 +11,5 @@ console.log(nombre, apellido, valorDado);
 if ( true ) {
     const nombre = 'peter';
     let valorDado = 6;
-
     console.log(valorDado);
 }

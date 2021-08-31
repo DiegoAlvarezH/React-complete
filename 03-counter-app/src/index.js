@@ -1,0 +1,12 @@
+import React from 'react';
+import  ReactDOM  from 'react-dom';
+
+const saludo = <h1>Hola mundo</h1>;
+
+console.log(saludo);
+
+const divRoot = document.querySelector('#app');
+
+console.log(divRoot);
+
+ReactDOM.render( saludo, divRoot);
