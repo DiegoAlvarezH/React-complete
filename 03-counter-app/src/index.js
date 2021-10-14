@@ -7,4 +7,4 @@ const divRoot = document.querySelector('#app');
 
 console.log(divRoot);
 
-ReactDOM.render( <PrimeraApp /> , divRoot);
+ReactDOM.render( <PrimeraApp/> , divRoot);

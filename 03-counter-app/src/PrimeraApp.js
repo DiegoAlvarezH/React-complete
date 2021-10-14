@@ -4,10 +4,8 @@ import React from 'react'
 
 // componentes por funciones - functional components (hooks)
 
-const PrimeraApp = () => {
+const PrimeraApp = ({saludo = 'hola mundo'}) => {
     //los booleanos no se imprimen 
-    const saludo = 'hola mundo';
-
 
     return ( 
         //fragment
